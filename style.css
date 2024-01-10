@@ -607,7 +607,6 @@ footer {
 .footer-social {
     display: flex;
     align-items: center;
-    border : 1px solid red;
     flex-wrap: wrap;
     gap : 10px;
 }
