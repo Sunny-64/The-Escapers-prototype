@@ -33,6 +33,7 @@ html {
 body {
     color: var(--dark);
     font-family: 'Inter', sans-serif;
+    min-width: 350px;
 }
 
 section {
@@ -425,7 +426,7 @@ header {
     grid-auto-flow: column;
     grid-auto-columns: 256px;
     overflow-x: auto;
-    /* gap: 24px; */
+    gap: 24px;
     justify-content: space-between;
     align-items: center;
     scrollbar-width: none;
@@ -606,6 +607,9 @@ footer {
 .footer-social {
     display: flex;
     align-items: center;
+    border : 1px solid red;
+    flex-wrap: wrap;
+    gap : 10px;
 }
 
 .footer-social>* {
